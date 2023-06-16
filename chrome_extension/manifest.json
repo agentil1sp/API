@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "API ChatGPT",
+    "description": "Base Level Extension",
+    "version": "1.0",
+
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "images/icon2.png"
+      },
+
+
+    "permissions": [
+        "storage",
+        "activeTab",
+        "scripting",
+        "tabs"
+    ],
+
+    "host_permissions": [
+        "https://api.openai.com/"
+    ]
+
+}
